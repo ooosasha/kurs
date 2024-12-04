@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3legant.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="./img/favicon.png" sizes="16x16">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <meta name="description" content="Сайт продажу чоловічого одягу">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<div id="contactModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Зв'яжіться з нами</h2>
+        <form id="contactForm">
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Ваша електронна адреса:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Ваше повідомлення:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Відправити</button>
+        </form>
+    </div>
+</div>
+<header class="header">
+    <div class="header-top">
+        <p>30% знижка — обмежений час! <a href="#" class="shop-now">Купити зараз <i class="fa-solid fa-arrow-right"></i></a></p>
+    </div>
+    <div class="header-main">
+        <a href="index.html" class="logo">3legant.</a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Голова</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="products.html">Продукти</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="#" id="contactBtn">Контакти</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="#" class="icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" class="icon"><i class="fa-regular fa-user"></i></a>
+            <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count">2</span></a>
+        </div>
+        <button class="burger-menu" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+<section class="section-video notfound">
+    <div class="hero-text">
+        <p class="blue-text">ОЙ ой</p>
+        <h2>404</h2>
+        <p>Здається ви загубилися</p>
+    </div>
+    <a href="index.html" class="btn">На головну</a>
+</section>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h2 class="footer-logo">3legant.</h2>
+            <p>43111 Hai Trieu вулиця,<br>Округ 1, ХКМЦ<br>В'єтнам</p>
+            <p>84-756-3237</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-xl"></i></a>
+            </div>
+        </div>
+        <div class="footer-section footer-links">
+            <div>
+                <h3>Сторінка</h3>
+                <ul>
+                    <li><a href="#">Додому</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Продукт</a></li>
+                    <li><a href="#">Статті</a></li>
+                    <li><a href="#">Зв'яжіться з нами</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Інформація</h3>
+                <ul>
+                    <li><a href="#">Політика доставки</a></li>
+                    <li><a href="#">Повернення</a></li>
+                    <li><a href="#">Підтримка</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Приєднатися до розсилки</h3>
+            <p>Підпишіться на нашу розсилку, щоб отримувати більше пропозицій, нових продуктів і акцій</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Введіть пошту">
+                <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div>
+            <p>Copyright © 2023 3legant. All rights reserved</p>
+            <p>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </p>
+        </div>
+        <div class="payment-methods">
+            <img src="img/pay1.svg" alt="Visa">
+            <img src="img/pay2.svg" alt="MasterCard">
+            <img src="img/pay3.svg" alt="Stripe">
+            <img src="img/pay4.svg" alt="PayPal">
+            <img src="img/pay5.svg" alt="Apple Pay">
+            <img src="img/pay6.svg" alt="Apple Pay">
+        </div>
+    </div>
+</footer>
+
+<script src="script/script.js"></script>
+</body>
+</html>

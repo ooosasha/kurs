@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3legant.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="./img/favicon.png" sizes="16x16">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <meta name="description" content="Сайт продажу чоловічого одягу">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Зв'яжіться з нами</h2>
+            <form id="contactForm">
+                <label for="name">Ваше ім'я:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Ваша електронна адреса:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Ваше повідомлення:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Відправити</button>
+            </form>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header-top">
+            <p>30% знижка — обмежений час! <a href="#" class="shop-now">Купити зараз <i class="fa-solid fa-arrow-right"></i></a></p>
+        </div>
+        <div class="header-main">
+            <a href="#" class="logo">3legant.</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="products.html">Продукти</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="#" id="contactBtn">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="#" class="icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="icon"><i class="fa-regular fa-user"></i></a>
+                <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count">2</span></a>
+            </div>
+            <button class="burger-menu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <img src="img/man.png" alt="Чоловік у зимовій куртці" class="hero-image">
+            <div class="hero-text">
+                <h1>Принести <br>тепло.</h1>
+                <p>Всім потрібна хороша зимова куртка. <br>Знайдіть свою у нашій колекції.</p>
+                <a href="#" class="btn">Купуйте зараз</a>
+            </div>
+        </div>
+    </section>
+    <section class="brands">
+        <h2>Трендові бренди</h2>
+        <div class="brands-container">
+            <img src="img/brand1.png" alt="Brand 1">
+            <img src="img/brand2.png" alt="Brand 2">
+            <img src="img/brand3.png" alt="Brand 3">
+            <img src="img/brand4.png" alt="Brand 4">
+            <img src="img/brand5.png" alt="Brand 5">
+            <img src="img/brand6.png" alt="Brand 6">
+        </div>
+    </section>
+    <section class="product-section">
+        <div class="section">
+            <h2>Просто та стильно</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide product-card">
+                        <div class="tag">НОВЕ</div>
+                        <img src="img/card1.png" alt="Куртка 1">
+                        <div class="product-info">
+                            <div>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                            </div>
+                            <h3>Корейська пухова куртка Nuptse Dip Dye 96</h3>
+                            <p class="price">$400.00</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <div class="tag">НОВЕ</div>
+                        <img src="img/card2.png" alt="Куртка 2">
+                        <div class="product-info">
+                            <div>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                            </div>
+                            <h3>Куртка Paradigm Chilliwack Black Label</h3>
+                            <p class="price">$349.99</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <div class="tag">НОВЕ</div>
+                        <img src="img/card3.png" alt="Куртка 3">
+                        <div class="product-info">
+                            <div>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                            </div>
+                            <h3>Ретро-куртка Nuptse 1996 року чорного кольору</h3>
+                            <p class="price">$149.99</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <div class="tag">НОВЕ</div>
+                        <img src="img/card4.png" alt="Куртка 4">
+                        <div class="product-info">
+                            <div>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                            </div>
+                            <h3>Куртка-бомбер Paul Quilted Nylon Puffer</h3>
+                            <p class="price">$300.00</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <div class="tag">НОВЕ</div>
+                        <img src="img/card5.png" alt="Куртка 5">
+                        <div class="product-info">
+                            <div>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                            </div>
+                            <h3>Куртка Chilliwack бомбер HUMANATURE</h3>
+                            <p class="price">$1,195</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <div class="tag">НОВЕ</div>
+                        <img src="img/card2.png" alt="Куртка 2">
+                        <div class="product-info">
+                            <div>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                            </div>
+                            <h3>Куртка Paradigm Chilliwack Black Label</h3>
+                            <p class="price">$349.99</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <div class="tag">НОВЕ</div>
+                        <img src="img/card3.png" alt="Куртка 3">
+                        <div class="product-info">
+                            <div>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                            </div>
+                            <h3>Ретро-куртка Nuptse 1996 року чорного кольору</h3>
+                            <p class="price">$149.99</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <div class="tag">НОВЕ</div>
+                        <img src="img/card4.png" alt="Куртка 4">
+                        <div class="product-info">
+                            <div>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                            </div>
+                            <h3>Куртка-бомбер Paul Quilted Nylon Puffer</h3>
+                            <p class="price">$300.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <section class="categories-section">
+        <h2>Купуйте за категоріями</h2>
+        <div class="categories-container">
+            <div class="category-item">
+                <img src="img/circle1.png" alt="Пуховики">
+                <p>Пуховики</p>
+            </div>
+            <div class="category-item">
+                <img src="img/circle2.png" alt="Бомбер">
+                <p>Бомбер</p>
+            </div>
+            <div class="category-item">
+                <img src="img/circle3.png" alt="Легкі куртки">
+                <p>Легкі куртки</p>
+            </div>
+            <div class="category-item">
+                <img src="img/circle4.png" alt="Жилети">
+                <p>Жилети</p>
+            </div>
+            <div class="category-item">
+                <img src="img/circle5.png" alt="Пальто">
+                <p>Пальто</p>
+            </div>
+            <div class="category-item">
+                <img src="img/circle6.png" alt="Джинсові">
+                <p>Джинсові</p>
+            </div>
+        </div>
+    </section>
+    <section class="collections-section">
+        <div class="collections-container">
+            <div class="collection-item">
+                <img src="img/colection1.png" alt="Листопадове вбрання">
+                <div class="collection-info">
+                    <h3>Листопадове вбрання</h3>
+                    <a href="#">Колекція →</a>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="img/colection2.png" alt="Кашеміровий набір">
+                <div class="collection-info">
+                    <h3>Кашеміровий набір</h3>
+                    <a href="#">Колекція →</a>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="img/colection3.png" alt="Новий скандинавський">
+                <div class="collection-info">
+                    <h3>Новий скандинавський</h3>
+                    <a href="#">Колекція →</a>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="img/colection4.png" alt="Шкіра">
+                <div class="collection-info">
+                    <h3>Шкіра</h3>
+                    <a href="#">Колекція →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products-section">
+        <div class="section">
+            <h2>Найкращі товари</h2>
+            <div class="product-container" id="product-container">
+            </div>
+        </div>
+    </section>
+    <section class="hero-two">
+        <div class="hero-content">
+            <img src="img/man2.png" alt="Чоловік у зимовій куртці" class="hero-image">
+            <div class="hero-text">
+                <p class="blue-text">РОЗПРОДАЖ ЗНИЖКИ ДО 35%.</p>
+                <h2>СОТНІ<br>Нові нижчі ціни!</h2>
+                <p>Поспішайте!!! Зима наближається!</p>
+                <a href="#" class="btn-sale">Купуйте зараз</a>
+            </div>
+        </div>
+    </section>
+    <section class="section-video">
+        <div class="hero-text">
+            <p class="blue-text">АКЦІЯ</p>
+            <h2>Зимові колекції</h2>
+            <p>Представляємо нові зимові куртки.</p>
+        </div>
+        <img src="img/video.png" alt="video">
+    </section>
+    <section class="product-section">
+        <div class="prod-title">
+            <h2>Останні статті</h2>
+            <a href="#" class="view-more">Переглянути більше <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="articles">
+            <article>
+                <img src="img/blog1.png" alt="Подарунки до свят">
+                <h3>2023 Подарунки до свят</h3>
+                <a href="#" class="read-more">Детальніше <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+            <article>
+                <img src="img/blog2.png" alt="Holiday Gift Guide">
+                <h3>2023 Підбираєм образ</h3>
+                <a href="#" class="read-more">Детальніше <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+            <article>
+                <img src="img/blog3.png" alt="Holiday Gift Guide">
+                <h3>2023 Теплі тканини</h3>
+                <a href="#" class="read-more">Детальніше <i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+        </div>
+    </section>
+    <section class="section-inst">
+        <h2>Стрічка новин</h2>
+        <h3>Інстаграм</h3>
+        <p>Слідкуйте за нами в соціальних мережах, щоб отримати більше знижок і акцій</p>
+        <p><a href="https://instagram.com/3legant_official" target="_blank">@3legant_official</a></p>
+        <div class="instagram-feed">
+            <img src="img/news1.png" alt="Опис зображення 1">
+            <img src="img/news2.png" alt="Опис зображення 2">
+            <img src="img/news3.png" alt="Опис зображення 3">
+            <img src="img/news4.png" alt="Опис зображення 4">
+        </div>
+    </section>
+    <section class="benefits-section">
+        <ul class="benefits-list">
+            <li>
+                <img src="img/icon.png" alt="Доставка">
+                <h3>Доставка за 0$</h3>
+                <p>Понад 200$</p>
+            </li>
+            <li>
+                <img src="img/icon2.png" alt="Повернення грошей">
+                <h3>Повернення грошей</h3>
+                <p>Гарантія 30 днів</p>
+            </li>
+            <li>
+                <img src="img/icon3.png" alt="Безпечні платежі">
+                <h3>Безпечні платежі</h3>
+                <p>Захищено Stripe</p>
+            </li>
+            <li>
+                <img src="img/icon4.png" alt="Підтримка 24/7">
+                <h3>Підтримка 24/7</h3>
+                <p>Підтримка по телефону</p>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2 class="footer-logo">3legant.</h2>
+                <p>43111 Hai Trieu вулиця,<br>Округ 1, ХКМЦ<br>В'єтнам</p>
+                <p>84-756-3237</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                </div>
+            </div>
+            <div class="footer-section footer-links">
+                <div>
+                    <h3>Сторінка</h3>
+                    <ul>
+                        <li><a href="#">Додому</a></li>
+                        <li><a href="#">Магазин</a></li>
+                        <li><a href="#">Продукт</a></li>
+                        <li><a href="#">Статті</a></li>
+                        <li><a href="#">Зв'яжіться з нами</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Інформація</h3>
+                    <ul>
+                        <li><a href="#">Політика доставки</a></li>
+                        <li><a href="#">Повернення</a></li>
+                        <li><a href="#">Підтримка</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Приєднатися до розсилки</h3>
+                <p>Підпишіться на нашу розсилку, щоб отримувати більше пропозицій, нових продуктів і акцій</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Введіть пошту">
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>
+                <p>Copyright © 2023 3legant. All rights reserved</p>
+                <p>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </p>
+            </div>
+            <div class="payment-methods">
+                <img src="img/pay1.svg" alt="Visa">
+                <img src="img/pay2.svg" alt="MasterCard">
+                <img src="img/pay3.svg" alt="Stripe">
+                <img src="img/pay4.svg" alt="PayPal">
+                <img src="img/pay5.svg" alt="Apple Pay">
+                <img src="img/pay6.svg" alt="Apple Pay">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
